@@ -31,8 +31,3 @@ subprojects {
     }
 }
 
-configurations.all {
-    resolutionStrategy {
-        exclude(group = "org.tensorflow", module = "tensorflow-lite-gpu")
-    }
-}
